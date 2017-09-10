@@ -1,0 +1,19 @@
+{
+  "name": "cplus_math_bind_nodejs_ffi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/cal.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild",
+    "build": "node-gyp rebuild",
+    "start": "node js/cal.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "gypfile": true,
+  "dependencies": {
+    "ffi": "^2.2.0",
+    "node-gyp": "^3.6.2"
+  }
+}
